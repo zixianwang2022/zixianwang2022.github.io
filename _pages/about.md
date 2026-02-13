@@ -21,7 +21,7 @@ My research interests span high-performance computing 💻, machine learning sys
 
 ## 🎓 Education
 **Ph.D. in Computer Science** 📖 (In Progress)  
-University of Illinois Urbana-Champaign, 2023-Present  
+University of Illinois Urbana-Champaign, 2025-Present  
 Advisor: Prof. Minjia Zhang
 
 **BS in Computer Science** 🎯 (2021 - 2025)  
@@ -36,12 +36,13 @@ P. Naidu, **Z. Wang**, L. Bergen, R. Paturi
 *AAAI 2026 Special Track on AI Alignment* (Accepted as Oral Presentation) 🎤
 
 **[The Surprising Soupability of Documents in State Space Models](https://arxiv.org/abs/2505.24033)** 📄  
-Y. Jafari*, **Z. Wang\***, L. Bergen, T. Berg-Kirkpatrick  
+Y. Jafari\*, **Z. Wang\***, L. Bergen, T. Berg-Kirkpatrick  
 *arXiv preprint arXiv:2505.24033*, 2025
 
 **[Omniwise: Predicting GPU Kernels Performance with LLMs](https://arxiv.org/abs/2506.20886)** 🔮  
 **Z. Wang**, C. Ramos, M. A. Awad, K. Lowery  
 *arXiv preprint arXiv:2506.20886*, 2025
+In submission to U.S. Patent Application.
 
 **[Preliminary Results of the MLPerf BERT Inference Benchmark on AMD Instinct GPUs](https://scholar.google.com/citations?hl=en&user=1OInvtgAAAAJ)** 📊  
 **Z. Wang**, K. Vu, M. Hodak, A. Mehrotra, F. Gutierrez, K. Smith, G. Seo, et al.  
@@ -66,22 +67,18 @@ SC Conference Series (Mar 2023 - Nov 2023)
 
 ## 💼 Experience
 
-**Research** 🔭
-
-**Graduate Research Assistant** 🧪  
-University of Illinois Urbana-Champaign (Aug 2023-Present)  
-Working on high-performance large-scale LLM training under Prof. Minjia Zhang.
-
 **Internships** 💡
 
-**Performance Engineer** ⚡  
+**Performance Engineer (MLPerf Team)** ⚡  
 AMD (May 2025 - Aug 2025)  
+Manager: Miro Hodak
 Santa Clara County, California  
 - Core contributor to MLPerf Inference 5.1 Llama3 405B Submission
 - Core contributor to MLPerf Training Llama 3 8B training benchmark
 
-**Research Intern (RAD Co-op)** 🔬  
+**Research Intern (RAD Profiling Team)** 🔬  
 AMD (Jun 2024 - Sep 2024)  
+Manager: Keith Lowery
 Austin, Texas  
 - Conducted LLM-guided software optimization research under Keith Lowery Group
 - Co-authored two Invention Disclosure Forms (IDFs)
