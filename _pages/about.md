@@ -31,26 +31,22 @@ Advisor: Leon Bergen, Mohan Paturi, Taylor Berg-Kirkpatrick
 
 ## 📚 Publications
 
-**Quiet Feature Learning in Algorithmic Tasks** 🧠  
+**[Quiet Feature Learning in Algorithmic Tasks](https://arxiv.org/abs/2505.03997)** 🧠  
 P. Naidu, **Z. Wang**, L. Bergen, R. Paturi  
-*AAAI 2026 Special Track on AI Alignment* (Accepted as Oral Presentation) 🎤  
-[arXiv](https://arxiv.org/abs/2505.03997)
+*AAAI 2026 Special Track on AI Alignment* (Accepted as Oral Presentation) 🎤
 
-**The Surprising Soupability of Documents in State Space Models** 📄  
+**[The Surprising Soupability of Documents in State Space Models](https://arxiv.org/abs/2505.24033)** 📄  
 Y. Jafari*, **Z. Wang\***, L. Bergen, T. Berg-Kirkpatrick  
-*arXiv preprint arXiv:2505.24033*, 2025  
-[arXiv](https://arxiv.org/abs/2505.24033)
+*arXiv preprint arXiv:2505.24033*, 2025
 
-**Omniwise: Predicting GPU Kernels Performance with LLMs** 🔮  
+**[Omniwise: Predicting GPU Kernels Performance with LLMs](https://arxiv.org/abs/2506.20886)** 🔮  
 **Z. Wang**, C. Ramos, M. A. Awad, K. Lowery  
-*arXiv preprint arXiv:2506.20886*, 2025  
-[arXiv](https://arxiv.org/abs/2506.20886)
+*arXiv preprint arXiv:2506.20886*, 2025
 
-**Preliminary Results of the MLPerf BERT Inference Benchmark on AMD Instinct GPUs** 📊  
+**[Preliminary Results of the MLPerf BERT Inference Benchmark on AMD Instinct GPUs](https://scholar.google.com/citations?hl=en&user=1OInvtgAAAAJ)** 📊  
 **Z. Wang**, K. Vu, M. Hodak, A. Mehrotra, F. Gutierrez, K. Smith, G. Seo, et al.  
 *Practice and Experience in Advanced Research Computing 2024: Human Powered Computing*, 2024  
 
-## 🏆 Competitions & Awards
 ## 🏆 Competitions & Awards
 
 **Student Cluster Competition (SC24) - Team Co-Lead, MLPerf Benchmark Lead** 🥈  
@@ -67,7 +63,7 @@ SC Conference Series (Mar 2023 - Nov 2023)
 - **1st in MLPerf Benchmark**
 - Designed 3-node enterprise computational cluster with 12 AMD Instinct MI210 GPUs and 6 AMD EPYC 9684x CPUs
 - Represented UCSD competing against world's best HPC teams at Supercomputing Conference 23
-## 💼 Experience
+
 ## 💼 Experience
 
 **Research** 🔭
