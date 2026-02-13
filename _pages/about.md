@@ -1,56 +1,96 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# Welcome to My Academic Portfolio
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## 👤 About Me
+I am a first-year PhD student at University of Illinois Urbana Champaign (UIUC) advised by Prof. Minjia Zhang. My research focuses on high performance large-scale LLM training. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 🔬 Research Interests
+My research interests span high-performance computing, machine learning systems, and GPU optimization. I focus on:
+- Large-scale language model training and inference optimization
+- GPU kernel performance prediction and optimization
+- MLPerf benchmark implementations and HPC systems design
+- Machine learning systems architecture
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## 🎓 Education
+**Ph.D. in Computer Science** (In Progress)  
+University of Illinois Urbana-Champaign, 2023-Present  
+Advisor: Prof. Minjia Zhang
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**BS in Computer Science** (2021 - 2025)  
+University of California, San Diego  
+Advisor: Leon Bergen, Mohan Paturi, Taylor Berg-Kirkpatrick
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 📚 Publications
 
-**Markdown generator**
+**Quiet Feature Learning in Algorithmic Tasks**  
+P. Naidu, **Z. Wang**, L. Bergen, R. Paturi  
+*AAAI 2026 Special Track on AI Alignment* (Accepted as Oral Presentation)  
+[arXiv](https://arxiv.org/abs/2505.03997)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**Omniwise: Predicting GPU Kernels Performance with LLMs**  
+**Z. Wang**, C. Ramos, M. A. Awad, K. Lowery  
+*arXiv preprint arXiv:2506.20886*, 2025  
+[arXiv](https://arxiv.org/abs/2506.20886)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**The Surprising Soupability of Documents in State Space Models**  
+Y. Jafari, **Z. Wang**, L. Bergen, T. Berg-Kirkpatrick  
+*arXiv preprint arXiv:2505.24033*, 2025  
+[arXiv](https://arxiv.org/abs/2505.24033)
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+**Preliminary Results of the MLPerf BERT Inference Benchmark on AMD Instinct GPUs**  
+**Z. Wang**, K. Vu, M. Hodak, A. Mehrotra, F. Gutierrez, K. Smith, G. Seo, et al.  
+*Practice and Experience in Advanced Research Computing 2024: Human Powered Computing*, 2024  
+(Cited by: 2)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## 🏆 Competitions & Awards
+
+**Student Cluster Competition (SC24) - Team Co-Lead, MLPerf Benchmark Lead**  
+SC Conference Series (Mar 2024 - Nov 2024)  
+Atlanta, Georgia  
+- **1st Place Among U.S. & Europe Teams, 4th Place Overall**
+- **1st in MLPerf Benchmark in AMD GPUs** (2nd in all GPU groups)
+- Designed heterogeneous 3-node system with 2 GPU nodes (1x EPYC Genoa 9534, 4x Instinct MI210) and 1 CPU node (1x EPYC Genoa 9634)
+- Supported first open-source multi-node optimized MIGraphX backend for MLPerf SDXL Inference benchmark
+
+**Student Cluster Competition (SC23) - Team Co-Lead, MLPerf Benchmark Lead**  
+SC Conference Series (Mar 2023 - Nov 2023)  
+- **3rd Place Overall, 1st Among U.S. Teams**
+- **1st in MLPerf Benchmark**
+- Designed 3-node enterprise computational cluster with 12 AMD Instinct MI210 GPUs and 6 AMD EPYC 9684x CPUs
+- Represented UCSD competing against world's best HPC teams at Supercomputing Conference 23
+
+## 💼 Experience
+
+**Research**
+
+**Graduate Research Assistant**  
+University of Illinois Urbana-Champaign (Aug 2023-Present)  
+Working on high-performance large-scale LLM training under Prof. Minjia Zhang.
+
+**Internships**
+
+**Performance Engineer**  
+AMD (May 2025 - Aug 2025)  
+Santa Clara County, California  
+- Core contributor to MLPerf Inference 5.1 Llama3 405B Submission
+- Core contributor to MLPerf Training Llama 3 8B training benchmark
+
+**Research Intern (RAD Co-op)**  
+AMD (Jun 2024 - Sep 2024)  
+Austin, Texas  
+- Conducted LLM-guided software optimization research under Keith Lowery Group
+- Co-authored two Invention Disclosure Forms (IDFs)
+- In process of US Patent Application
+
+## News & Updates
+<!-- TODO: Add any recent news or announcements -->
