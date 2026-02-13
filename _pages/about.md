@@ -41,7 +41,6 @@ Y. Jafari\*, **Z. Wang\***, L. Bergen, T. Berg-Kirkpatrick
 
 **[Omniwise: Predicting GPU Kernels Performance with LLMs](https://arxiv.org/abs/2506.20886)** 🔮  
 **Z. Wang**, C. Ramos, M. A. Awad, K. Lowery  
-*arXiv preprint arXiv:2506.20886*, 2025
 In submission to U.S. Patent Application.
 
 **[Preliminary Results of the MLPerf BERT Inference Benchmark on AMD Instinct GPUs](https://scholar.google.com/citations?hl=en&user=1OInvtgAAAAJ)** 📊  
@@ -71,14 +70,14 @@ SC Conference Series (Mar 2023 - Nov 2023)
 
 **Performance Engineer (MLPerf Team)** ⚡  
 AMD (May 2025 - Aug 2025)  
-Manager: Miro Hodak
+Manager: Miro Hodak  
 Santa Clara County, California  
 - Core contributor to MLPerf Inference 5.1 Llama3 405B Submission
 - Core contributor to MLPerf Training Llama 3 8B training benchmark
 
 **Research Intern (RAD Profiling Team)** 🔬  
 AMD (Jun 2024 - Sep 2024)  
-Manager: Keith Lowery
+Manager: Keith Lowery  
 Austin, Texas  
 - Conducted LLM-guided software optimization research under Keith Lowery Group
 - Co-authored two Invention Disclosure Forms (IDFs)
