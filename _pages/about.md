@@ -46,7 +46,7 @@ Y. Jafari*, **Z. Wang\***, L. Bergen, T. Berg-Kirkpatrick
 **[Preliminary Results of the MLPerf BERT Inference Benchmark on AMD Instinct GPUs](https://scholar.google.com/citations?hl=en&user=1OInvtgAAAAJ)** 📊  
 **Z. Wang**, K. Vu, M. Hodak, A. Mehrotra, F. Gutierrez, K. Smith, G. Seo, et al.  
 *Practice and Experience in Advanced Research Computing 2024: Human Powered Computing*, 2024  
-
+ 
 ## 🏆 Competitions & Awards
 
 **Student Cluster Competition (SC24) - Team Co-Lead, MLPerf Benchmark Lead** 🥈  
