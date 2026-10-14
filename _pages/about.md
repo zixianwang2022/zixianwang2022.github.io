@@ -18,7 +18,7 @@ Before UIUC, I received my B.S. in Computer Science from **UC San Diego**, where
 ## News {#news}
 
 <ul class="news-list">
-  <li><span class="news-date">2026</span> <a href="#pub-xmoe4d"><b>X-MoE-4D</b></a> is accepted to <b>SC26</b>! Trillion-parameter MoE training on hierarchical HPC systems.</li>
+  <li><span class="news-date">2026</span> <a href="#pub-xmoe4d"><b>X-MoE-4D</b></a> (first author) is accepted to <b>SC26</b>! Trillion-parameter MoE training on hierarchical HPC systems.</li>
   <li><span class="news-date">2026</span> <a href="#pub-soup"><b>The Surprising Soupability of Documents in State Space Models</b></a> is accepted to <b>COLM 2026</b>!</li>
   <li><span class="news-date">2025</span> <a href="#pub-quiet"><b>Quiet Feature Learning in Algorithmic Tasks</b></a> is accepted to <b>AAAI 2026</b> as an <b>oral</b> presentation!</li>
   <li><span class="news-date">2025</span> Started my PhD at UIUC with Prof. Minjia Zhang.</li>
@@ -31,8 +31,7 @@ Before UIUC, I received my B.S. in Computer Science from **UC San Diego**, where
 
 <div class="pub-item" id="pub-xmoe4d" markdown="1">
 **X-MoE-4D: Breaking the Scaling Barrier for Trillion Parameter MoEs on Hierarchical HPC Systems**  
-<!-- TODO: replace with the full author list in paper order -->
-**Zixian Wang**, et al.  
+**Zixian Wang**, Liheng Jing, Emily Herron, Sajal Dash, Feiyi Wang, Minjia Zhang  
 <span class="pub-venue">SC 2026</span> *The International Conference for High Performance Computing, Networking, Storage, and Analysis*
 </div>
 
