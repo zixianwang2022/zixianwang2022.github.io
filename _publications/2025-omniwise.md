@@ -4,8 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/2025-omniwise
 excerpt: 'Using large language models to predict GPU kernel performance'
-date: 2025-01-01
-venue: 'arXiv'
+date: 2025-06-26
+venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2506.20886'
 citation: 'Z. Wang, C. Ramos, M. A. Awad, K. Lowery. &quot;Omniwise: Predicting GPU Kernels Performance with LLMs.&quot; <i>arXiv preprint arXiv:2506.20886</i>.'
 ---

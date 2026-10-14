@@ -41,3 +41,83 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Homepage sections (news, publications, awards, experience) */
+.news-list,
+.award-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.news-list li {
+  margin-bottom: 0.45em;
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 3.2em;
+  margin-right: 0.4em;
+  font-weight: bold;
+  color: #777;
+}
+
+.award-list li {
+  margin-bottom: 0.9em;
+}
+
+.award-name {
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.award-desc {
+  font-size: 0.8em;
+  color: #888;
+  line-height: 1.4;
+}
+
+.pub-note {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.pub-item,
+.exp-item {
+  margin-bottom: 1.1em;
+}
+
+.pub-item p,
+.exp-item p {
+  margin-bottom: 0.3em;
+}
+
+.pub-venue {
+  display: inline-block;
+  padding: 0 0.45em;
+  margin-right: 0.3em;
+  border-radius: 3px;
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3a6ea5;
+}
+
+.pub-highlight {
+  font-weight: bold;
+  color: #c0392b;
+}
+
+.exp-date {
+  float: right;
+  font-size: 0.85em;
+  color: #888;
+}
+
+.exp-meta {
+  font-size: 0.85em;
+  color: #888;
+}
+
+.exp-item ul {
+  margin-top: 0.2em;
+}

@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zixian Wang" # TODO: Update with your name/site title
 title_separator          : "-"
 name                     : &name "Zixian Wang" # TODO: Update with your name
-description              : &description "Your academic portfolio"   # TODO: Update with a brief description of your site
+description              : &description "Zixian Wang is a Computer Science PhD student at the University of Illinois Urbana-Champaign (UIUC) advised by Prof. Minjia Zhang, working on high-performance large-scale LLM training, ML systems, and HPC."
 url                      : https://zixianwang2022.github.io # TODO: Update with your GitHub Pages URL
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zixianwang2022/zixianwang2022.github.io" # TODO: Update with your repo
@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png" # Add your profile picture (place in /images/ directory)
   name             : "Zixian Wang"
   pronouns         : He/Him
-  bio              : "PhD Student at UIUC | LLM Training & Systems"
-  location         : UIUC # TODO: Your location (optional)
-  employer         : # TODO: Your institution/employer (optional)
-  uri              : # TODO: Your personal website URL (optional)
+  bio              : "CS PhD Student @ UIUC<br>ML Systems · LLM Training · HPC"
+  location         : "Urbana-Champaign, IL"
+  employer         : "University of Illinois Urbana-Champaign"
+  uri              : # Leave blank; this site is the personal website
   email            : "zixianw4@illinois.edu" # TODO: Update with your email 
 
   # Academic websites (leave blank if not applicable)
@@ -142,14 +142,20 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.png" # Social media default site image
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Zixian Wang"
+  job_title              : "PhD Student in Computer Science"
+  affiliation            : "University of Illinois Urbana-Champaign"
+  alumni_of              : "University of California, San Diego"
+  links: # Profiles that belong to you (used for Google's knowledge panel / structured data)
+    - "https://scholar.google.com/citations?user=1OInvtgAAAAJ"
+    - "https://github.com/zixianwang2022"
+    - "https://www.linkedin.com/in/zixian-wang-092559180/"
 
 
 # Analytics
@@ -191,6 +197,45 @@ exclude:
   - README
   - tmp
   - vendor
+  # Internal notes / docs (not part of the website)
+  - README.md
+  - CLEANUP_GUIDE.md
+  - CONTRIBUTING.md
+  - CURRENT_PAGE_PREVIEW.md
+  - GETTING_STARTED.md
+  - PAGE_STRUCTURE_GUIDE.md
+  - PROFILE_PICTURE_GUIDE.md
+  - QUICK_EDIT_CHECKLIST.md
+  - SITE_STRUCTURE.md
+  - VISUAL_WEBSITE_GUIDE.md
+  - docker-compose.yaml
+  - _config_docker.yml
+  - markdown_generator
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
+  # Leftover AcademicPages sample pages and files (placeholder content that
+  # should not be published or indexed by search engines)
+  - _pages/cv.md
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/archive-layout-with-content.md
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/portfolio.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - files/bibtex1.bib
 keep_files:
   - .git
   - .svn
@@ -221,16 +266,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false # unused template collection
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false # unused template collection
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false # unused template collection
     permalink: /:collection/:path/
 
 
